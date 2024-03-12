@@ -148,97 +148,109 @@
           </ul>
         </section>
         <section>
-          <h1>Practices</h1>
-          <ul>
-            <li>101</li>
-            <li>Authentication</li>
-            <li>Authorization/access control</li>
-            <li>Session management</li>
-            <li>Configuration</li>
-            <li>3rd party software</li>
-            <li>User input validation</li>
-            <li>Operations</li>
-          </ul>
+          <section>
+            <h1>Practices</h1>
+            <ul>
+              <li>101</li>
+              <li>Authentication</li>
+              <li>Authorization/access control</li>
+              <li>Session management</li>
+              <li>Configuration</li>
+              <li>3rd party software</li>
+              <li>User input validation</li>
+              <li>Operations</li>
+            </ul>
+          </section>
+
+          <section>
+            <h1>Practices 101</h1>
+            <ul>
+              <li>Use HTTPS for everything</li>
+              <li>Redirect HTTP to HTTPS</li>
+              <li>Have a CSP</li>
+              <li>Set cookie headers carefully</li>
+              <li>Be conservative with CORS</li>
+              <li>Validate form data on client and server</li>
+              <li>Escape text and code</li>
+              <li>Use a proven framework</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Authentication</h1>
+            <ul>
+              <li>Passwords: strength, transmission, storage</li>
+              <li>Password managers</li>
+              <li>MFA</li>
+              <li>Take care with error messages</li>
+              <li>CAPTCHA</li>
+              <li>Forgotten password flow</li>
+              <li>Security questions</li>
+              <li>Passwordless protocols: OAuth, OpenID</li>
+              <li>Web Authentication</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Authorization</h1>
+            <ul>
+              <li>Checking REST calls, API keys</li>
+              <li>Separation of users and admins</li>
+              <li>Least privilege and default deny</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Session Management</h1>
+            <ul>
+              <li>Use session management toolkits</li>
+              <li>Use random session identifiers</li>
+              <li>Session expiry</li>
+              <li>Cookies: secure cookie handling</li>
+              <li>CSRF protection</li>
+              <li>Reauthenticate for high risk operations</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Configuration</h1>
+            <ul>
+              <li>Turn off directory browsing</li>
+              <li>Remove unnecessary files (e.g. git files)</li>
+              <li>Disable unnecessary plugins and services</li>
+              <li>Secrets management</li>
+              <li>CSRF protection</li>
+              <li>Keep dev and live databases separate</li>
+            </ul>
+          </section>
+          <section>
+            <h1>3rd party software</h1>
+            <ul>
+              <li>3rd party JavaScript (HTTPS, CSPs, SRI)</li>
+              <li>npm (managing dependencies)</li>
+              <li>Patching strategy</li>
+            </ul>
+          </section>
+          <section>
+            <h1>User input validation</h1>
+            <ul>
+              <li>Validation, sanitization, input hints</li>
+              <li>Buffer overflows</li>
+              <li>File upload</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Operations</h1>
+            <ul>
+              <li>Automate deployment</li>
+              <li>Monitor</li>
+              <li>Patching strategy</li>
+            </ul>
+          </section>
         </section>
+
         <section>
-          <h1>Practices 101</h1>
+          <h1>Discussion questions</h1>
           <ul>
-            <li>Use HTTPS for everything</li>
-            <li>Redirect HTTP to HTTPS</li>
-            <li>Have a CSP</li>
-            <li>Set cookie headers carefully</li>
-            <li>Be conservative with CORS</li>
-            <li>Validate form data on client and server</li>
-            <li>Escape text and code</li>
-            <li>Use a proven framework</li>
-          </ul>
-        </section>
-        <section>
-          <h1>Authentication</h1>
-          <ul>
-            <li>Passwords: strength, transmission, storage</li>
-            <li>Password managers</li>
-            <li>MFA</li>
-            <li>Take care with error messages</li>
-            <li>CAPTCHA</li>
-            <li>Forgotten password flow</li>
-            <li>Security questions</li>
-            <li>Passwordless protocols: OAuth, OpenID</li>
-            <li>Web Authentication</li>
-          </ul>
-        </section>
-        <section>
-          <h1>Authorization</h1>
-          <ul>
-            <li>Checking REST calls, API keys</li>
-            <li>Separation of users and admins</li>
-            <li>Least privilege and default deny</li>
-          </ul>
-        </section>
-        <section>
-          <h1>Session Management</h1>
-          <ul>
-            <li>Use session management toolkits</li>
-            <li>Use random session identifiers</li>
-            <li>Session expiry</li>
-            <li>Cookies: secure cookie handling</li>
-            <li>CSRF protection</li>
-            <li>Reauthenticate for high risk operations</li>
-          </ul>
-        </section>
-        <section>
-          <h1>Configuration</h1>
-          <ul>
-            <li>Turn off directory browsing</li>
-            <li>Remove unnecessary files (e.g. git files)</li>
-            <li>Disable unnecessary plugins and services</li>
-            <li>Secrets management</li>
-            <li>CSRF protection</li>
-            <li>Keep dev and live databases separate</li>
-          </ul>
-        </section>
-        <section>
-          <h1>3rd party software</h1>
-          <ul>
-            <li>3rd party JavaScript (HTTPS, CSPs, SRI)</li>
-            <li>npm (managing dependencies)</li>
-            <li>Patching strategy</li>
-          </ul>
-        </section>
-        <section>
-          <h1>User input validation</h1>
-          <ul>
-            <li>Validation, sanitization, input hints</li>
-            <li>Buffer overflows</li>
-            <li>File upload</li>
-          </ul>
-        </section>
-        <section>
-          <h1>Operations</h1>
-          <ul>
-            <li>Automate deployment</li>
-            <li>Monitor</li>
-            <li>Patching strategy</li>
+            <li>Feedback on overall shape</li>
+            <li>How to talk about frameworks?</li>
+            <li>The fear of imperfections</li>
           </ul>
         </section>
       </div>
